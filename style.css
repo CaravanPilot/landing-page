@@ -1,7 +1,6 @@
 body {
-    display: flex
-    flex-direction column;
-    justify-content: space-between;
+    margin: 0px;
+    
 }
 
 .hero {
@@ -69,11 +68,45 @@ button {
     border: none;
 }
 
-.img {
+.imghead {
     width: 500px;
     height: 200px;
     background-color: grey ;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.titletwo {
+    font-size: 36px;
+    font-weight: bolder;
+    font-size: #1F2937;
+    text-align: center;
+    margin: 40px;
+}
+
+.sectiontwo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    }
+
+.item {
+    display: flex;  
+    align-items: center; 
+    flex-direction: column;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 175px;  
+    height: 175px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 175px;
+    margin-top: 190px;
+    padding-bottom: 80px;
 }
