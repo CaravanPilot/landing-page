@@ -1,6 +1,5 @@
 body {
     margin: 0px;
-    
 }
 
 .hero {
@@ -109,4 +108,31 @@ button {
     width: 175px;
     margin-top: 190px;
     padding-bottom: 80px;
+}
+
+.sectionthree {
+    background-color: #E5E7EB;
+    padding: 80px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.quote {
+    font-size: 36px;
+    font-style: italic; 
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 900px;
+}
+
+.signature {
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
 }
