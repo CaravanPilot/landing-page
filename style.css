@@ -13,12 +13,12 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 80px;
+    margin-left: -40px;
 }
 
 .herocontent {
     display: flex;
-    justify-content: center;
-    flex: 1;
+    justify-content: space-around;
 }
 
 .heroleft {
@@ -71,8 +71,8 @@ a {
 .imghead {
     height: 200px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-right: 150px;
 }
 
 .titletwo {
@@ -128,6 +128,7 @@ a {
     font-weight: bold;
     display: flex;
     justify-content: end;
+    margin-right: 250px;
 }
 
 .sectionfour {
@@ -138,7 +139,7 @@ a {
     padding: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border-radius: 10px;
 }
 
