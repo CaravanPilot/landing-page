@@ -57,14 +57,14 @@ a {
     font-size: 48px;
 }
 
-button {
-    background-color: #3882F6;
+.button1 {
     color: #E5E7EB;
+    background-color: #3882F6;
     font-weight: bold;
     padding: 5px 20px;
     margin-top: 10px;
     border-radius: 10px;
-    border: none;
+    border-color: #3882F6;
 }
 
 .imghead {
@@ -134,4 +134,40 @@ button {
     font-weight: bold;
     display: flex;
     justify-content: end;
+}
+
+.sectionfour {
+    background-color: #3882F6;
+    margin: 200px;
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.action {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.signup {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.button2 {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: white;
 }
