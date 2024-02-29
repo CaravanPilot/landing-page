@@ -96,11 +96,17 @@ a {
     flex-direction: column;
 }
 
+.item img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    width: 250px;
+}
+
 .text {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    width: 300px;
+    width: 250px;
     margin-top: 15px;
 }
 
